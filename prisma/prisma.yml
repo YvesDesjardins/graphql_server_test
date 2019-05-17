@@ -1,0 +1,8 @@
+#endpoint: ''
+endpoint: https://us1.prisma.sh/yves-desjardins-d96f76/graphql_server_test/dev
+
+datamodel: datamodel.prisma
+
+generate: 
+  - generator: javascript-client
+    output: ../src/generated/prisma-client
